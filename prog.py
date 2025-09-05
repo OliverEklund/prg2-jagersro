@@ -46,3 +46,4 @@ def game_turn():
 
 for i in range(10):
     steps = game_turn
+    print(steps)

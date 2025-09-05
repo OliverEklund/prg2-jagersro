@@ -15,9 +15,3 @@ def input_int(prompt):
 def input_clamp(stat_name, prompt, clamp = 7):
     while Player_horse[stat_name] < 1 or Player_horse[stat_name] > clamp:
         Player_horse[stat_name] = input_int(prompt)
-
-def input_name(prompt = "Skriv ditt namn: ", lenght = 2) => str:
-    name = ""
-    while len(name)<lenght:
-        name = input(prompt)
-    return name
