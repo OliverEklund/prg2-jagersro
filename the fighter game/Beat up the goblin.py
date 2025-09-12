@@ -6,12 +6,12 @@ def input_int(prompt):
             print("Invalid input. Skriv ett nummer.")
 
 Player = {"Health": 100, "Attack": 10}
-John_Goblin = {"Name": "Goblin", "Health": 50, "Attack": 10}
+John_Goblin = {"Name": "Goblin", "Health": 50, "Attack": 10, "Armor": 15}
 
 turn = True
 while turn is True:
 
-    print(f"A {John_Goblin['Name']} with {John_Goblin['Health']} stands in front of you. What do you do?")
+    print(f"A {John_Goblin['Name']} with {John_Goblin['Health']} health stands in front of you. What do you do?")
     print("1: Attack him")
     print("2: NOTHING")
     player_choice = input_int("")
